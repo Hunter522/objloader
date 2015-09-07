@@ -1,4 +1,4 @@
-package com.hmorgan.wavefront;
+package com.hmorgan.gfx.wavefront;
 
 import java.util.Optional;
 

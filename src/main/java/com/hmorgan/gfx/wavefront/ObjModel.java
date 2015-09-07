@@ -1,4 +1,4 @@
-package com.hmorgan.wavefront;
+package com.hmorgan.gfx.wavefront;
 
 import com.hackoeur.jglm.Vec3;
 import com.hmorgan.gfx.Mesh;

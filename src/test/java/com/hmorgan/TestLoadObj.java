@@ -1,6 +1,6 @@
 package com.hmorgan;
 
-import com.hmorgan.wavefront.ObjModel;
+import com.hmorgan.gfx.wavefront.ObjModel;
 
 import java.io.IOException;
 
