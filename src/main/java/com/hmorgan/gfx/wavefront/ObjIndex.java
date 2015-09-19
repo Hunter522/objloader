@@ -3,7 +3,14 @@ package com.hmorgan.gfx.wavefront;
 import java.util.Optional;
 
 /**
- * Represents an element index in a Wavefront .OBJ file.
+ * Represents an element index in a Wavefront .OBJ file. An .OBJ element can be:
+ * <ul>
+ *     <li>'f' - a face</li>
+ *     Faces have a vertex index, a normal index (optional), and a texture coord index (optional)
+ *     <li>'l' - a line</li>
+ *     Lines have a vertex index, and an optional texture coord index
+ * </ul>
+ *
  * <p>
  * This class is <i>immutable</i> and uses a builder class. This makes this class
  * inheritly thread-safe.
